@@ -2,3 +2,21 @@
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
+
+.header {
+    color: rgb(236, 253, 0);
+    height: 20px;
+    width: 100%;
+    color: white;
+    list-style: none;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: white;
+    text-decoration: none;
+}
