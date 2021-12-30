@@ -12,8 +12,8 @@
 }
 
 .logo {
-    width: 40px;
-    position: relative;
+    width: 70px;
+    position: absolute;
 }
 
 .header a {
@@ -37,5 +37,21 @@
     float: right;
     margin-right: 5%;
     position: relative;
-    top: 0px;
+    top: 25px;
+}
+
+.content { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 200px;
+    box-shadow: 2px;
+    border:  1px solid black;
+    padding: 0px 5% 0px 5%
+}
+
+.hot_rec {
+    width: 750px;
+    height: 80px;
+    background-color: antiquewhite;
 }
