@@ -4,11 +4,16 @@
 }
 
 .header {
-    background-color: rgb(236, 253, 0);
-    height: 50px;
+    background-color: #F9B058;
+    height: 80px;
     width: 100%;
     color: white;
     list-style: none;
+}
+
+.logo {
+    width: 40px;
+    position: relative;
 }
 
 .header a {
@@ -21,12 +26,16 @@
     text-decoration: none;
 }
 
-.menud_header {
-    float: right;
+.menu_header {
     margin-right: 10%;
     color: white;
+    font-size: 20pt;
+    list-style: none;
 }
 
-.menud_header li { 
+.menu_header li { 
     float: right;
+    margin-right: 5%;
+    position: relative;
+    top: 0px;
 }
