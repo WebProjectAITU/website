@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-image: url("body_background.jpg");
 }
 
 .header {
@@ -40,6 +41,10 @@ a {
     flex-wrap: wrap;
     gap: 20px;
     align: center;
+    background-color: rgba(250, 235, 215, 0.753);
+    width: 1200px;
+    height: 800px;
+    margin: 0 auto 0 auto;
 }
 .card {
     display: flex;
