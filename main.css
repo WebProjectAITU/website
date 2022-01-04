@@ -1,3 +1,8 @@
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -10,6 +15,11 @@ body {
     text-align: center;
     justify-content: center;
     margin-bottom: 40px;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a {
@@ -29,6 +39,7 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    align: center;
 }
 .card {
     display: flex;
