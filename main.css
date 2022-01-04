@@ -1,58 +1,40 @@
-* {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .header {
-    background-color: #F9B058;
-    height: 80px;
-    width: 100%;
-    color: white;
-    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
-.logo {
-    width: 70px;
-    position: absolute;
-}
-
-.header a {
-    color: white;
+a {
     text-decoration: none;
+    color: #666;
 }
 
-.header a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-.menu_header {
-    margin-right: 10%;
-    color: white;
-    font-size: 20pt;
+.menu-header {
+    display: flex;
+    justify-content: center;
     list-style: none;
+    gap: 30px;
 }
 
-.menu_header li { 
-    float: right;
-    margin-right: 5%;
-    position: relative;
-    top: 25px;
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
-
-.content { 
-    margin-left: auto;
-    margin-right: auto;
-    width: 1000px;
-    height: 1000px;
-    box-shadow: 2px;
-    border:  1px solid black;
-    padding: 0px 5% 0px 5%
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
 }
-
-.hot_rec {
-    width: 750px;
-    height: 100px;
-    background-color: antiquewhite;
-    border: 1px solid black;
+.card a img{
+    width: 200px;
 }
